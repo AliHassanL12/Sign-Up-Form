@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+}
+
+.sidebar{
+    min-width: 40%;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(annie-spratt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    font-size: 70px;
+}
+.logo > img {
+    height: 130px;
+    width: 90px;
+}
+
+.content{
+    width: 100%;
+}
+
+.disclaimer{
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content .form {
+    background-color: white;
+    padding-left: 30px;
+}
+.form > p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+input {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 225px;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side div,
+.right-side div {
+    margin-top: 15px;
+}
+
+.form .right-side {
+    margin-left: 60px;
+}
+
+form {
+    display: flex;
+}
+
+.form {
+    padding-bottom: 30px;
+}
+
