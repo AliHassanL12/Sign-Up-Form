@@ -9,6 +9,7 @@ body {
 }
 
 .sidebar{
+    position: relative;
     min-width: 40%;
     overflow: hidden;
     height: 100vh;
@@ -17,6 +18,17 @@ body {
     background-size: cover;
 }
 
+.sidebar > p {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 150px;
+    color: #D8D8D8;
+    font-size: 14px;
+}
+
+.underline {
+    text-decoration: underline;
+}
 .logo{
     height: 140px;
     display: flex;
@@ -46,6 +58,9 @@ body {
     font-weight: 600;
 }
 
+.italics {
+    text-decoration: wavy;
+}
 .content .form {
     background-color: white;
     padding-left: 30px;
@@ -87,3 +102,36 @@ form {
     padding-bottom: 30px;
 }
 
+input:focus {
+    border-color: lightblue;
+    box-shadow: 15px 30px 150px rgba(0,0,0,0.2);
+}
+
+input:invalid {
+    border: solid red;
+}
+
+input[type="password"]:valid{
+    border: solid red;
+}
+
+.button{
+    margin-left: 30px;
+    margin-top: 20px;
+    border: solid #556B2F;
+    background-color: #556B2F;
+    color: white;
+    font-weight: bold;
+    width: 175px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.content > p {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.content > p span {
+    color:#556B2F;
+}
